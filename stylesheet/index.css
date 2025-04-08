@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 ::root {
-  --background-color: hsl();
-  --search-color: hsl();
+  --background-color: rgb(251, 255, 241);
+  --search-color: rgb(239, 246, 238);
   --bungee-font: font-family: "Bungee Spice", sans-serif;
   --weight-400: font-weight: 400;
 }
+
