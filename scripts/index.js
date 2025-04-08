@@ -1,5 +1,5 @@
-// const inputAddTodo = document.querySelector("");
-// const btnAddTodo = document.querySelector("");
+const inputAddTodo = document.querySelector("");
+const btnAddTodo = document.querySelector("");
 
 const todoList = document.querySelector("ul");
 let todoItems = 0;
