@@ -18,17 +18,25 @@
     <header></header>
     <main id="mainContainer">
       <h1>TODOLIST</h1>
-      <input type="text" placeholder="Ajouter une tache ..." />
-      <button onclick="addTodo()">+</button>
-      <article>
+
+      <section id="searchContainer">
+        <input type="text" placeholder="Ajouter une tache ..." id="searchBar" />
+         <button onclick="addTodo()">+</button>
+      </section>
+      <article id="articleContainer">
         <ul>
           <li>
-            <i class="fa-solid fa-pencil"></i>
-            <i class="fa-solid fa-square-check"></i>
-            <p>Faire le trello</p>
+            <section id="iconContainer">
+              <i class="fa-solid fa-pencil"></i>
+              <i class="fa-solid fa-square-check"></i>
+            </section>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id,
+              reprehenderit.
+            </p>
             <i class="fa-solid fa-square-xmark"></i>
-            <hr />
           </li>
+          <hr />
         </ul>
       </article>
     </main>
