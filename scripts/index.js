@@ -15,7 +15,7 @@ function addTodo() {
     value ? value : "nothing"
   }"/>
                 <i class="fa-solid fa-square-xmark" onclick="removeTodo(${todoItems})"></i>
-            <li>
+            </li>
              <hr class="hr${todoItems}"/>`;
 }
 
