@@ -1,3 +1,4 @@
+let todoItems = 0;
 function createTodo() {
   todoItems++;
   let newTodo = new todo(todoItems);
@@ -46,6 +47,8 @@ class todo {
     document.querySelector(`.todoText${this.index}`).classList.toggle("check");
   };
   changeTodo = () => {
-    document.querySelector(`.todoText${this.index}`).toggleAttribute("disabled");
+    document
+      .querySelector(`.todoText${this.index}`)
+      .toggleAttribute("disabled");
   };
 }
