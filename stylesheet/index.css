@@ -76,6 +76,10 @@ h1 {
         background: none;
         margin: 10px;
         border: none;
+        &:disabled{
+          color:rgba(0, 3, 2, 0.202);
+          font-weight: 700;
+        }
       }
       i {
         font-size: 20px;
